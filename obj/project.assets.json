@@ -997,19 +997,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ly\\.nuget\\packages\\": {}
+    "C:\\Users\\Klepon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ly\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "C:\\Users\\Klepon\\TodoApi\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "C:\\Users\\Ly\\TodoApi\\TodoApi.csproj",
-      "packagesPath": "C:\\Users\\Ly\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ly\\TodoApi\\obj\\",
+      "projectPath": "C:\\Users\\Klepon\\TodoApi\\TodoApi.csproj",
+      "packagesPath": "C:\\Users\\Klepon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Klepon\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Klepon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
