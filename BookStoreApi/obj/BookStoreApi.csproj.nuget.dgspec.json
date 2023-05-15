@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Klepon\\TodoApi\\BookStoreApi\\BookStoreApi.csproj": {}
+    "C:\\Users\\lenovo\\TodoApi\\BookStoreApi\\BookStoreApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Klepon\\TodoApi\\BookStoreApi\\BookStoreApi.csproj": {
+    "C:\\Users\\lenovo\\TodoApi\\BookStoreApi\\BookStoreApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Klepon\\TodoApi\\BookStoreApi\\BookStoreApi.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\TodoApi\\BookStoreApi\\BookStoreApi.csproj",
         "projectName": "BookStoreApi",
-        "projectPath": "C:\\Users\\Klepon\\TodoApi\\BookStoreApi\\BookStoreApi.csproj",
-        "packagesPath": "C:\\Users\\Klepon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Klepon\\TodoApi\\BookStoreApi\\obj\\",
+        "projectPath": "C:\\Users\\lenovo\\TodoApi\\BookStoreApi\\BookStoreApi.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lenovo\\TodoApi\\BookStoreApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Klepon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -88,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

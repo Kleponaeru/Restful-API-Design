@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookStoreApi</name>
+    </assembly>
+    <members>
+        <member name="M:BookStoreApi.Controllers.BooksController.Get">
+             <summary>
+             Get all BooksItem data.
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+             <response code="400">If the item is null</response>
+             <response code="401">If the user is not authorized to access the resource</response>
+             <response code="404">If the resource could not be found</response>
+             <response code="500">If there was an internal server error</response>
+            <remarks>
+             Sample request:
+            
+                 GET /BookStore
+                 {
+                    "id": 1,
+                    "name": "Item #1",
+                    "isComplete": true
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:BookStoreApi.Controllers.BooksController.Get(System.String)">
+             <summary>
+             Get specific BooksItem.
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+             <response code="400">If the item is null</response>
+             <response code="401">If the user is not authorized to access the resource</response>
+             <response code="404">If the resource could not be found</response>
+             <response code="500">If there was an internal server error</response>
+             <remarks>
+             Sample request:
+            
+                 GET /BookStore
+                 {
+                    "id": "string
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:BookStoreApi.Controllers.BooksController.Post(BookStoreApi.Models.Book)">
+             <summary>
+             Creates a BooksItem.
+             </summary>
+             <param name="item"></param>
+             <returns>A newly created BooksItem</returns>
+             <remarks>
+             <remarks>
+             Sample request:
+            
+                 POST /BookStore
+                 {
+                    "id": "string,
+                    "BookName": "Item #1",
+                    "Price": 0,
+                    "Category": "Cateory #1",
+                    "Author" : "Author #1";
+                 }
+            
+             </remarks>
+             </remarks>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+             <response code="401">If the user is not authorized to access the resource</response>
+             <response code="404">If the resource could not be found</response>
+             <response code="500">If there was an internal server error</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.BooksController.Update(System.String,BookStoreApi.Models.Book)">
+             <summary>
+             Update specific BooksItem.
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+             <response code="400">If the item is null</response>
+             <response code="401">If the user is not authorized to access the resource</response>
+             <response code="404">If the resource could not be found</response>
+             <response code="500">If there was an internal server error</response>
+             <remarks>
+             Sample request:
+            
+                 PUT /BookStore
+                 {
+                    "id": "string,
+                    "BookName": "Item #1",
+                    "Price": 0,
+                    "Category": "Cateory #1",
+                    "Author" : "Author #1";
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:BookStoreApi.Controllers.BooksController.Delete(System.String)">
+             <summary>
+             Deletes a specific BooksItem.
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+             <response code="400">If the item is null</response>
+             <response code="401">If the user is not authorized to access the resource</response>
+             <response code="404">If the resource could not be found</response>
+             <response code="500">If there was an internal server error</response>
+             <remarks>
+             Sample request:
+            
+                 DELETE /BookStore
+                 {
+                    "id": "string,
+                    "BookName": "Item #1",
+                    "Price": 0,
+                    "Category": "Cateory #1",
+                    "Author" : "Author #1";
+                 }
+            
+             </remarks>
+        </member>
+    </members>
+</doc>
