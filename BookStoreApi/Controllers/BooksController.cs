@@ -85,7 +85,6 @@ public class BooksController : ControllerBase
     /// <param name="item"></param>
     /// <returns>A newly created BooksItem</returns>
     /// <remarks>
-    /// <remarks>
     /// Sample request:
     ///
     ///     POST /BookStore
@@ -97,7 +96,6 @@ public class BooksController : ControllerBase
     ///        "Author" : "Author #1";
     ///     }
     ///
-    /// </remarks>
     /// </remarks>
     /// <response code="201">Returns the newly created item</response>
     /// <response code="400">If the item is null</response>
