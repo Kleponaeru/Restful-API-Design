@@ -1,5 +1,6 @@
 using BookStoreApi.Models;
 using BookStoreApi.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using System.Net.Http;
@@ -18,7 +19,6 @@ public class BooksController : ControllerBase
     /// <summary>
     /// Get all BooksItem data.
     /// </summary>
-    /// <param name="id"></param>
     /// <returns></returns>
     /// <response code="400">If the item is null</response>
     /// <response code="401">If the user is not authorized to access the resource</response>
@@ -36,6 +36,7 @@ public class BooksController : ControllerBase
     ///
     /// </remarks>
     [HttpGet]
+    [Authorize]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
@@ -82,7 +83,7 @@ public class BooksController : ControllerBase
     /// <summary>
     /// Creates a BooksItem.
     /// </summary>
-    /// <param name="item"></param>
+    /// <param name="newBook"></param>
     /// <returns>A newly created BooksItem</returns>
     /// <remarks>
     /// Sample request:
@@ -133,6 +134,7 @@ public class BooksController : ControllerBase
     /// Update specific BooksItem.
     /// </summary>
     /// <param name="id"></param>
+    /// <param name="updatedBook"></param> 
     /// <returns></returns>
     /// <response code="400">If the item is null</response>
     /// <response code="401">If the user is not authorized to access the resource</response>

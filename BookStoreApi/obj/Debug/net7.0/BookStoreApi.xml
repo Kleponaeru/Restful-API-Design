@@ -8,7 +8,6 @@
              <summary>
              Get all BooksItem data.
              </summary>
-             <param name="id"></param>
              <returns></returns>
              <response code="400">If the item is null</response>
              <response code="401">If the user is not authorized to access the resource</response>
@@ -50,7 +49,7 @@
              <summary>
              Creates a BooksItem.
              </summary>
-             <param name="item"></param>
+             <param name="newBook"></param>
              <returns>A newly created BooksItem</returns>
              <remarks>
              Sample request:
@@ -76,6 +75,7 @@
              Update specific BooksItem.
              </summary>
              <param name="id"></param>
+             <param name="updatedBook"></param> 
              <returns></returns>
              <response code="400">If the item is null</response>
              <response code="401">If the user is not authorized to access the resource</response>
