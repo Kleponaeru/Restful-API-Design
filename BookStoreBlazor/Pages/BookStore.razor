@@ -1,0 +1,72 @@
+﻿@page "/bookstore"
+@using BookStoreBlazor.Data
+@inject HttpClient Http
+
+<PageTitle>BookStore</PageTitle>
+
+<h3>BookStore</h3>
+
+<input placeholder="Something Book" @bind="newBook" />
+<button @onclick="AddBook">Add Book</button>
+
+@if (bookstores == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Book Name</th>
+                <th>Price</th>
+                <th>Cathegory</th>
+                <th>Author</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var bookstore in bookstores)
+            {
+                Console.WriteLine(bookstore.ToString());
+                <tr>
+                    <td>@bookstore.Id</td>
+                    <td>@bookstore.Name</td>
+                    <td>@bookstore.Price</td>
+                    <td>@bookstore.Category</td>
+                    <td>@bookstore.Author</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+   private string? newBook;
+        private List<BookStoreData>? bookstores;
+
+    private void AddBook()
+    {
+        if (!string.IsNullOrWhiteSpace(newBook))
+        {
+            if (bookstores == null)
+            {
+            bookstores = new List<BookStoreData>();
+            }
+
+            var newBookStore = new BookStoreData { Name = newBook };
+            bookstores.Add(newBookStore);
+            newBook = string.Empty;
+    }
+}
+
+protected override async Task OnInitializedAsync()
+{
+    bookstores = await Http.GetFromJsonAsync<List<BookStoreData>>("http://localhost:5204/api/Books");
+    if (bookstores == null)
+    {
+        bookstores = new List<BookStoreData>();
+    }
+}
+
+}

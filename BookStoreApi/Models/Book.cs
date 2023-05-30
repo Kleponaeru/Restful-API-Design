@@ -13,11 +13,11 @@ public class Book
 
     [BsonElement("Name")]
     [Required]
-    public string BookName { get; set; } = null!;
+    public string? BookName { get; set; } = null!;
     [Required]
     public decimal? Price { get; set; } = null!;
 
-    public string Category { get; set; } = null!;
-    
-    public string Author { get; set;} = null!;
+    public string? Category { get; set; } = null!;
+
+    public string? Author { get; set; } = null!;
 }

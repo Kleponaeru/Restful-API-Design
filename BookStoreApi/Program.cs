@@ -6,10 +6,14 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
+
+var  MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
 builder.Services.Configure<BookStoreDatabaseSettings>(
+    
     builder.Configuration.GetSection("BookStoreDatabase"));
 
 builder.Services.AddSingleton<BooksService>();
@@ -60,6 +64,14 @@ builder.Services.AddSwaggerGen(options =>
             Url = new Uri("https://example.com/license")
         }
     });
+//     builder.Services.AddCors(options =>
+// {
+//     options.AddPolicy(name: MyAllowSpecificOrigins,
+//                       policy  =>
+//                       {
+//                           policy.WithOrigins("http://localhost:5204");
+//                       });
+// });
 
     // using System.Reflection;
     var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
@@ -72,6 +84,7 @@ var app = builder.Build();
 app.UseAuthentication();
 
 app.UseAuthorization();
+app.UseCors(MyAllowSpecificOrigins);
 
 IConfiguration configuration = app.Configuration;
 

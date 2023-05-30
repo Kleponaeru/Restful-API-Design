@@ -103,3 +103,13 @@ C:\Users\lenovo\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.IdentityModel.Pr
 C:\Users\lenovo\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\lenovo\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\lenovo\TodoApi\BookStoreApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\lenovo\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\lenovo\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\Users\lenovo\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\lenovo\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\lenovo\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\lenovo\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\lenovo\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\lenovo\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\lenovo\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.JSInterop.dll
+C:\Users\lenovo\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.JSInterop.WebAssembly.dll
