@@ -64,20 +64,20 @@ builder.Services.AddSwaggerGen(options =>
             Url = new Uri("https://example.com/license")
         }
     });
-//     builder.Services.AddCors(options =>
-// {
-//     options.AddPolicy(name: MyAllowSpecificOrigins,
-//                       policy  =>
-//                       {
-//                           policy.WithOrigins("http://localhost:5204");
-//                       });
-// });
-
     // using System.Reflection;
     var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
 });
-
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy  =>
+                      {
+                          policy.WithOrigins("http://localhost:5255")
+                          .AllowAnyHeader()
+                   .AllowAnyMethod();
+                      });
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

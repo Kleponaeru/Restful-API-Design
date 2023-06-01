@@ -31,7 +31,7 @@ else
                 Console.WriteLine(bookstore.ToString());
                 <tr>
                     <td>@bookstore.Id</td>
-                    <td>@bookstore.Name</td>
+                    <td>@bookstore.BookName</td>
                     <td>@bookstore.Price</td>
                     <td>@bookstore.Category</td>
                     <td>@bookstore.Author</td>
@@ -42,31 +42,24 @@ else
 }
 
 @code {
-   private string? newBook;
-        private List<BookStoreData>? bookstores;
-
+    private String? newBook;
+    private BookStoreData[]? bookstores;
     private void AddBook()
     {
         if (!string.IsNullOrWhiteSpace(newBook))
         {
-            if (bookstores == null)
-            {
-            bookstores = new List<BookStoreData>();
-            }
-
-            var newBookStore = new BookStoreData { Name = newBook };
-            bookstores.Add(newBookStore);
+            bookstores ??= new BookStoreData[0];
+            var newBookStore = new BookStoreData { BookName = newBook };
+            bookstores = bookstores.Concat(new[] { newBookStore }).ToArray();
             newBook = string.Empty;
+        }
     }
-}
 
-protected override async Task OnInitializedAsync()
-{
-    bookstores = await Http.GetFromJsonAsync<List<BookStoreData>>("http://localhost:5204/api/Books");
-    if (bookstores == null)
+
+    protected override async Task OnInitializedAsync()
     {
-        bookstores = new List<BookStoreData>();
+        bookstores = await Http.GetFromJsonAsync<BookStoreData[]>("http://localhost:5204/api/Books");
     }
-}
+
 
 }

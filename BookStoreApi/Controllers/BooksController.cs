@@ -36,7 +36,7 @@ public class BooksController : ControllerBase
     ///
     /// </remarks>
     [HttpGet]
-    [Authorize]
+    // [Authorize]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]

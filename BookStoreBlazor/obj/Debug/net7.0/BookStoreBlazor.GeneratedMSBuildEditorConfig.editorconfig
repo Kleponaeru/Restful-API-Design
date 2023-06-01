@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BookStoreBlazor
 build_property.RootNamespace = BookStoreBlazor
-build_property.ProjectDir = c:\Users\lenovo\TodoApi\BookStoreBlazor\
+build_property.ProjectDir = C:\Users\lenovo\TodoApi\BookStoreBlazor\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\lenovo\TodoApi\BookStoreBlazor
+build_property.MSBuildProjectDirectory = C:\Users\lenovo\TodoApi\BookStoreBlazor
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/lenovo/TodoApi/BookStoreBlazor/App.razor]
+[C:/Users/lenovo/TodoApi/BookStoreBlazor/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/lenovo/TodoApi/BookStoreBlazor/Pages/BookStore.razor]
+[C:/Users/lenovo/TodoApi/BookStoreBlazor/Pages/BookStore.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va1N0b3JlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/lenovo/TodoApi/BookStoreBlazor/Pages/Counter.razor]
+[C:/Users/lenovo/TodoApi/BookStoreBlazor/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/lenovo/TodoApi/BookStoreBlazor/Pages/FetchData.razor]
+[C:/Users/lenovo/TodoApi/BookStoreBlazor/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/lenovo/TodoApi/BookStoreBlazor/Pages/Index.razor]
+[C:/Users/lenovo/TodoApi/BookStoreBlazor/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/lenovo/TodoApi/BookStoreBlazor/Shared/SurveyPrompt.razor]
+[C:/Users/lenovo/TodoApi/BookStoreBlazor/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/lenovo/TodoApi/BookStoreBlazor/_Imports.razor]
+[C:/Users/lenovo/TodoApi/BookStoreBlazor/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/lenovo/TodoApi/BookStoreBlazor/Shared/MainLayout.razor]
+[C:/Users/lenovo/TodoApi/BookStoreBlazor/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ekhbd470ko
 
-[c:/Users/lenovo/TodoApi/BookStoreBlazor/Shared/NavMenu.razor]
+[C:/Users/lenovo/TodoApi/BookStoreBlazor/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-wv82ptnucc

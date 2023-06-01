@@ -3,7 +3,7 @@ public class BookStoreData
 {
     public string? Id { get; set; }
 
-    public string? Name { get; set; } 
+    public string? BookName { get; set; } 
     
     public decimal? Price { get; set; }
     

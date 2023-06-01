@@ -198,13 +198,13 @@
       "mscorlib.dll": "sha256-qqpKd+W+AFb6UxudEYEKzrz7ma81p5LrWUwPBVvHV4U=",
       "netstandard.dll": "sha256-OYYuPT3JUknj4LdYIa58zF7kDB3tCnLzjCSuhEjtKXM=",
       "System.Private.CoreLib.dll": "sha256-EVS7zPxPV\/41g2mzPwdXtwiigWxI\/SeAHme1IgyD6tc=",
-      "BookStoreBlazor.dll": "sha256-ia4sbEjihKQN0Q4Uv1qd2f5vS20N9RMc9u2W4Jdny9M="
+      "BookStoreBlazor.dll": "sha256-E2kufpyTcXVGGQtXI8rzua\/imrs1K3ZZXi0MGoiyyBw="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "BookStoreBlazor.pdb": "sha256-UTHohkGURKHAD4namjP0LYZRGxyA7MsmBOp83vCXFxI="
+      "BookStoreBlazor.pdb": "sha256-Hlh25NAjYf+plxc0sJjF9yzCN373lddVYYBxd0bprlg="
     },
     "runtime": {
       "dotnet.7.0.5.ejgghn2bhi.js": "sha256-codB25EodaFEP43MDCfMBuKXU4LqurUKnQrpoMIFnPs=",
